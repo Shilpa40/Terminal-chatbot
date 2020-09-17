@@ -8,7 +8,7 @@ s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) # create a socket object
 #AF_INET: family of ip4 ip adresses.
 #type : udp, SOCK_STREAM: Tcp
 
-#Need some ip addresses that the swerver will listen to when message comes
+#Need some ip addresses that the server will listen to when message comes
 hostname = '127.0.0.1' # ip address. at local machine, same for everyone 
 #aka.home, there is no place like 127.0.0.1
 
